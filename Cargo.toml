@@ -1,0 +1,10 @@
+[package]
+name = "wineasy"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+# Macos dependencies
+objc2 = "0.5.2"
+objc2-app-kit = { version = "0.2.2", features = ["NSApplication", "NSWindow", "NSView", "NSResponder"] }
