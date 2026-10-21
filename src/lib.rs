@@ -1,5 +1,6 @@
-mod vec2;
-mod window;
+pub mod platform;
+pub mod vec2;
+pub mod window;
 pub fn add(left: u64, right: u64) -> u64 {
     left + right
 }
